@@ -1,5 +1,7 @@
 function validateForm(){
 	/* Escribe tú código aquí */
+    var funcion=document.getElementsByTagName("button")[0];
+    
     var formulario=document.getElementsByClassName("form-signup")
     var nombre, apellido, correo, contraseña, tipo, twitter, check, boton;
     nombre=document.getElementById("name").value;
