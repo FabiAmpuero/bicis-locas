@@ -64,6 +64,10 @@ function validateForm(){
 		else if (contrasenia == "123456" || contrasenia == "098754" || contrasenia == "password") {
 			alert ("No se permiten '123456', '098754' y 'password' como contraseñas");
 		};
+/* ----------------------------------------- seleccion de bici -- */
+        if (document.getElementsByTagName("select")[0].value == 0){
+		alert("Selecciona tu tipo de bicicleta");
+	}
     }
 }
 
